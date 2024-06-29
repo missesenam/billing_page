@@ -1,0 +1,22 @@
+.gridsys{
+    grid-template-columns: 20% 80%
+}
+td, th {
+    /* border: 1px solid rgb(230, 230, 230); */
+    text-align: left;
+    padding: 8px;
+  }
+  tbody tr:hover{
+    box-shadow: 2px 2px 289px -9px rgba(0,0,0,0.75);
+-webkit-box-shadow: 2px 2px 289px -9px rgba(0,0,0,0.75);
+-moz-box-shadow: 2px 2px 289px -9px rgba(0,0,0,0.75);
+  }
+  .lola:hover{
+    border: none;
+    border-left: 5px solid rgb(241, 108, 108);
+    border-radius: 4px;
+  }
+  .lola{
+    min-height: 30px;
+    padding-left: 15px;
+  }
